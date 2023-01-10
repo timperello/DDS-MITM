@@ -1,6 +1,4 @@
-# Factory of the future
-
-ICE-manual
+# ICE-manual
 
 # 1 General setup
 
