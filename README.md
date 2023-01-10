@@ -13,7 +13,7 @@ Below the layer 3 design from the technical design is visible to illustrate how 
 
 # 2 Specific setup
 
-## 2.1 Switch
+## 2.1 Switch - Cisco Catalyst 3560
 
 When you use the switch for the first time, you need to complete some basic tasks:
 
