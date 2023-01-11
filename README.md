@@ -1,5 +1,3 @@
-# ICE manual
-
 # 1 General setup
 
 The goal of this prototype is to create a setup of a man in the middle attack on a DDS communication. To achieve this several devices have to be configured. This document aims to allow anybody to replicate such an attack. The setup contains a publisher, subscriber, attacker, router, switch and robot. In the second chapter the specific configuration for the machines is listed.
@@ -7,6 +5,8 @@ The goal of this prototype is to create a setup of a man in the middle attack on
 The publisher sends data using DDS, while the subscriber receives data using DDS. The attacker will execute the man in the middle attack and compromise the integrity of the communication. The robot is attached to the subscriber and will receive commands from this machine.
 
 Below the layer 3 design from the technical design is visible to illustrate how the setup is supposed to look. For hardware requirements and other specifications, the technical design can be consulted.
+
+<img src="layer3.png" alt="Layer 3 design showing the 2 VLANs connected to the switch, with the IP addresses of each machine">
 
 
 # 2 Specific setup
