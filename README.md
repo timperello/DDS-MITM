@@ -93,7 +93,7 @@ We use one Raspberry Pi as a router. The software we've used is the **OpenWrt** 
 
 ### 2.2.1 Default installation
 
-The installation of OpenWrt on a Raspberry Pi is documented on the website of OpenWrt.
+The installation of OpenWrt on a Raspberry Pi is documented on the website of [OpenWrt](https://openwrt.org/toh/raspberry_pi_foundation/raspberry_pi#how_to_flash_openwrt_to_an_sd_card).
 
 ### 2.2.2 Configure client network
 
@@ -111,7 +111,7 @@ The publisher will be using a python script to send values to the subscriber. Th
 - Python version 3.9.2
 - Pip version 20.3.4
 
-To install the RTI Connector for Python the following command can be executed in a terminal:
+To install the [RTI Connector for Python](https://github.com/rticommunity/rticonnextdds-connector-py/) the following command can be executed in a terminal:
 
 ```
 pip3 install rticonnextdds_connector
@@ -157,7 +157,7 @@ pip3 install rticonnextdds_connector
 
 At the time of writing this will install rticonnextdds\_connector version 1.2.0.
 
-Next up, you need to install the Universal Robots RTDE C++ Interface. Because we will only be using the Python interface in this setup, you can install this using the following command:
+Next up, you need to install the [Universal Robots RTDE C++ Interface](https://sdurobotics.gitlab.io/ur_rtde/index.html). Because we will only be using the Python interface in this setup, you can install this using the following command:
 
 ```
 pip3 install ur_rtde
@@ -207,7 +207,7 @@ The attacker will intercept and modify messages sent from the publisher to the s
 - Python version 3.9.2
 - Pip version 20.3.4
 
-For intercepting and modifying packets Scapy with the RTPS package will be used. To use the RTPS package we will have to build Scapy from source. This means all existing versions will have to be removed to prevent version conflicts, especially on Kali Linux. This can be done by executing the following commands in the terminal:
+For intercepting and modifying packets [Scapy](https://scapy.net/) with the [RTPS package](https://scapy.readthedocs.io/en/latest/api/scapy.contrib.rtps.html) will be used. To use the RTPS package we will have to build Scapy from source. This means all existing versions will have to be removed to prevent version conflicts, especially on Kali Linux. This can be done by executing the following commands in the terminal:
 
 ```
 sudo apt remove python3-scapy
